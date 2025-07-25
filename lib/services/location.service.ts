@@ -34,7 +34,7 @@ export class LocationService {
       successCallback,
       (error) => {
         if (errorCallback) {
-          errorCallback(this.handlePositionError(error));
+          errorCallback(error);
         }
       },
       { ...this.defaultOptions, ...options }

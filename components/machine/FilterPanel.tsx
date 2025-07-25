@@ -40,7 +40,7 @@ export function FilterPanel({
               <option value={MachineType.FOOD}>食品</option>
               <option value={MachineType.ICE}>アイス</option>
               <option value={MachineType.CIGARETTE}>たばこ</option>
-              <option value={MachineType.MULTIPLE}>複合機</option>
+              <option value={MachineType.OTHER}>その他</option>
             </select>
           </div>
 

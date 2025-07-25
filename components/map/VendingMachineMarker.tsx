@@ -18,7 +18,7 @@ function getMarkerColor(machineType: MachineType): string {
       return '#06B6D4'; // Cyan
     case MachineType.CIGARETTE:
       return '#6B7280'; // Gray
-    case MachineType.MULTIPLE:
+    case MachineType.OTHER:
       return '#8B5CF6'; // Purple
     default:
       return '#10B981'; // Green
@@ -36,7 +36,7 @@ function getMachineEmoji(machineType: MachineType): string {
       return '🍦';
     case MachineType.CIGARETTE:
       return '🚬';
-    case MachineType.MULTIPLE:
+    case MachineType.OTHER:
       return '🏪';
     default:
       return '🥤';

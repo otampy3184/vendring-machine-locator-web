@@ -2,7 +2,7 @@ export enum MachineType {
   BEVERAGE = '飲料',
   FOOD = '食品',
   ICE = 'アイス',
-  TOBACCO = 'たばこ',
+  CIGARETTE = 'たばこ',
   OTHER = 'その他'
 }
 
